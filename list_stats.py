@@ -63,7 +63,3 @@ def describe(numbers):
         return "Empty list"
     respuesta = f"Min:{find_min(numbers)} Max:{find_max(numbers)} Range:{range_of(numbers)} Avg:{average(numbers)}"
     return respuesta
-
-    Ejemplo: describe([3, 1, 7, 2]) -> "Min:1 Max:7 Range:6 Avg:3.2"
-    """
-   
